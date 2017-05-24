@@ -1,0 +1,22 @@
+{
+  "name": "pi-server",
+  "version": "0.0.1",
+  "description": "A raspberry pi web server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pi",
+    "server"
+  ],
+  "engines": ">7.6",
+  "author": "Shaun Warman",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.2.0",
+    "koa-body": "^2.0.1",
+    "koa-router": "^7.2.0",
+    "roto-fantasy-headlines": "0.0.1"
+  }
+}
