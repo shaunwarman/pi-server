@@ -4,13 +4,16 @@
   "description": "A raspberry pi web server",
   "main": "index.js",
   "scripts": {
+    "build": "zip -r headlines.zip *",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "pi",
     "server"
   ],
-  "engines": ">7.6",
+  "engines": {
+    "node" : ">=7.6"
+  },
   "author": "Shaun Warman",
   "license": "MIT",
   "dependencies": {
